@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaPub - Online Chemist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">PharmaPub - Online Chemist</div>
+    <div class="nav">
+        <a href="#shop">Shop</a>
+        <a href="#upload">Upload Prescription</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+    
+    <div id="shop" class="container">
+        <h2>Shop Medications</h2>
+        <div class="product"><img src="images/panadol.jpg" alt="Panadol"><h3>Panadol Advance</h3><p>Ksh 250</p></div>
+        <div class="product"><img src="images/augmentin.jpg" alt="Augmentin"><h3>Augmentin 625mg</h3><p>Ksh 1200</p></div>
+        <div class="product"><img src="images/ventolin.jpg" alt="Ventolin Inhaler"><h3>Ventolin Inhaler</h3><p>Ksh 850</p></div>
+        <div class="product"><img src="images/zyrtec.jpg" alt="Zyrtec"><h3>Zyrtec</h3><p>Ksh 600</p></div>
+        <div class="product"><img src="images/dolo650.jpg" alt="Dolo 650"><h3>Dolo 650</h3><p>Ksh 300</p></div>
+        <div class="product"><img src="images/cetirizine.jpg" alt="Cetirizine Hydrochloride"><h3>Cetirizine Hydrochloride</h3><p>Ksh 500</p></div>
+        <div class="product"><img src="images/ors.jpg" alt="Pedialyte ORS"><h3>Pedialyte ORS</h3><p>Ksh 150</p></div>
+    </div>
+    
+    <div id="upload" class="container">
+        <h2>Upload Prescription</h2>
+        <input type="file" id="prescription-upload">
+        <button onclick="uploadPrescription()">Upload</button>
+    </div>
+    
+    <div id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 0745054585</p>
+        <p>Email: contact@pharmapub.co.ke</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
